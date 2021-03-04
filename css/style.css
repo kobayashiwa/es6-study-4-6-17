@@ -72,10 +72,8 @@ nav {
 	right: 28px;
 }
 @media screen and (max-width: 768px) {
-	header {
-		height: 75px;
-	}
 	.logo {
+		width: 80px;
 		left: 30px;
 	}
 	.logo a {
