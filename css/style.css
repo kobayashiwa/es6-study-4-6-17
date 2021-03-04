@@ -54,15 +54,12 @@ header {
 }
 .logo {
 	position: absolute;
+	width: 140px;
 	top: 30px;
 	left: 50px;
 }
-.logo a {
-	display: block;
-	width: 66px;
-	height: 40px;
-	background-image: url(../img/logo01.png);
-	background-size: 66px;
+.logo img {
+	width: 100%;
 }
 .logo a span {
 	display: none;
