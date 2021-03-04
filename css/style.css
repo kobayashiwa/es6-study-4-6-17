@@ -114,9 +114,9 @@ main {
 	height: 1000px;
 	background: hsl(214, 97%, 23%, 0.4);
 }
-.contact {
+.outset-history {
 	width: 100%;
-	height: 140px;
+	height: 1000px;
 	background: hsl(214, 97%, 23%, 0.5);
 }
 @media screen and (max-width: 999px) {
