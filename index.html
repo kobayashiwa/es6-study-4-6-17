@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>es6-study-4-5-14</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=""/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo"><a href="#"><span>TAICHIRO</span></a></div>
+            <nav>nav</nav>
+        </header>
+
+        <main>
+            <section class="top">section / top</section>
+            <section class="philosophy">section / philosophy</section>
+            <section class="ichimaiita">section / ichimaiita</section>
+            <section class="showroom">section / showroom</section>
+            <section class="contact">section / contact</section>
+        </main>
+
+        <footer>footer</footer>
+
+    </body>
+
+    <script>
+        class Animal {
+            constructor() {
+                this.name = "レオ";
+                this.age = 3;
+            }
+        }
+        const animal = new Animal();
+        console.log(`名前：${animal.name}`);
+        console.log(`年齢：${animal.age}`);
+
+        class Mag {
+            constructor() {
+                this.name = "宣伝会議デジタルマガジン";
+                this.copy = "広告マーケティングの専門メディア";
+            }
+        }
+        const mag = new Mag();
+        console.log(`サイト名：${mag.name}`);
+        console.log(`このサイトは${mag.copy}です`);
+
+        class Menu {
+            constructor() {
+                this.whats = "デジタルマガジンとは";
+                this.order = "申し込む";
+                this.search = "記事内検索";
+                this.login = "ログイン";
+            }
+        }
+        const menu = new Menu();
+        console.log(`${menu.whats}`);
+        console.log(`${menu.order}`);
+        console.log(`${menu.search}`);
+        console.log(`${menu.login}`);
+    </script>
+
+</html>
