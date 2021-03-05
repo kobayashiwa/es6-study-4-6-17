@@ -93,7 +93,7 @@ main {
 }
 .mainvisual {
 	width: 100%;
-	height: 1000px;
+	height: 180vw;
 	background: hsl(214, 97%, 23%, 0.1);	
 }
 .current-event {
@@ -103,27 +103,27 @@ main {
 }
 .yearly-event {
 	width: 100%;
-	height: 1000px;
+	height: 40vw;
 	background: hsl(214, 97%, 23%, 0.3);
 }
 .outset-highlight {
 	width: 100%;
-	height: 1000px;
+	height: 60vw;
 	background: hsl(214, 97%, 23%, 0.4);
 }
 .outset-history {
 	width: 100%;
-	height: 1000px;
+	height: 20vw;
 	background: hsl(214, 97%, 23%, 0.5);
 }
 .access {
 	width: 100%;
-	height: 1000px;
+	height: 20vw;
 	background: hsl(214, 97%, 23%, 0.6);
 }
 .inn {
 	width: 100%;
-	height: 1000px;
+	height: 20vw;
 	background: hsl(214, 97%, 23%, 0.7);
 }
 @media screen and (max-width: 999px) {
