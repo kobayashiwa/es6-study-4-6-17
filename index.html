@@ -44,6 +44,10 @@
             if ( scroll > mainVisualHeight){
                 $(".top-header").addClass("bisible");
             }
+            // スクロール量がメインビジュアルの高さより小さければ特定のclassを消す
+            else {
+                $(".top-header").removeClass("bisible");
+            }
         });
     </script>
 
