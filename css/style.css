@@ -116,6 +116,11 @@ main {
 	height: 1000px;
 	background: hsl(214, 97%, 23%, 0.6);
 }
+.inn {
+	width: 100%;
+	height: 1000px;
+	background: hsl(214, 97%, 23%, 0.7);
+}
 @media screen and (max-width: 999px) {
 }
 
