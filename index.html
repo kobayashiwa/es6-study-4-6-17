@@ -40,7 +40,10 @@
             let mainVisualHeight = $(".mainvisual").height();
             // スクロール量の取得
             let scroll = $(this).scrollTop();
-            console.log($(scroll));
+            // スクロール量がメインビジュアルの高さより大きければclassを付与する
+            if ( scroll > mainVisualHeight){
+                $(".top-header").addClass("bisible");
+            }
         });
     </script>
 
