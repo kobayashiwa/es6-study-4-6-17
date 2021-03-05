@@ -53,6 +53,9 @@ header {
 	height: 76px;
 	display: none;
 }
+header .bisible {
+	display: block;
+}
 .logo {
 	position: absolute;
 	width: 140px;
