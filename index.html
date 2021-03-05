@@ -36,7 +36,9 @@
     <script>
         // スクロール時に実行する
         $(window).scroll(function(){
-            console.log(`スクロール中`);
+            // mainvisualの高さを取得する
+            let mainVisualHeight = $(".mainvisual").height();
+            console.log($(mainVisualHeight));
         });
     </script>
 
