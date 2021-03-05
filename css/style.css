@@ -45,7 +45,7 @@ ul, li {
 }
 
 /** header **/
-header {
+.top-header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -53,7 +53,7 @@ header {
 	height: 76px;
 	display: none;
 }
-header .bisible {
+.top-header.bisible {
 	display: block;
 }
 .logo {
