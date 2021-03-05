@@ -51,4 +51,26 @@
         });
     </script>
 
+    <script>
+        class Animal {
+            constructor(name,age){
+                this.name = name;
+                this.age = age;
+            }
+        }
+        const animal = new Animal("モカ",8);
+        console.log(`名前：${animal.name}`);
+        console.log(`年齢：${animal.age}`);
+
+        class Prtimes {
+            constructor(title,description){
+                this.title = title;
+                this.description = description;
+            }
+        }
+        const prtimes = new Prtimes("PR TIMES", "プレスリリース・ニュースリリース配信サービスの");
+        console.log(`タイトル：${prtimes.title}`);
+        console.log(`ディスクリプション：${prtimes.description}${prtimes.title}`);
+    </script>
+
 </html>
